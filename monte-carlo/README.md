@@ -18,6 +18,8 @@ I think of Monte-Carlo algorithm a special type of Monte-Carlo simulation, with 
 
 It is fast, normally polynomial runtime, given that RNGs are fast. Due to its randomness nature, it is non-deterministic, meaning sometimes it will output the wrong answer. So it trades speed with accuracy. 
 
+Thus any randomized approximation algorithm is always Monte Carlo!
+
 A generic Monte-Carlo algorithm roughly works like this:
 1. Define a problem, what do we want to approximate (i.e. is n prime?)
 2. Use uniform RNG to pick samples 
