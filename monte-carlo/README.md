@@ -26,4 +26,4 @@ A generic Monte-Carlo algorithm roughly works like this:
 5. Aggregate results - combine all trials into a final estimate, for example, if any run results in a composite $\rightarrow$ number is composite
 
 ## Examples
-- [**Miller-Rabin Primality Test**](monte-carlo/miller-rabin-primality-test/OUTLINE.md)
+- [**Miller-Rabin Primality Test**](miller-rabin-primality-test/ANALYSIS.md)
